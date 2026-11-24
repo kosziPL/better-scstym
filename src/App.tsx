@@ -83,9 +83,9 @@ function App() {
         </main>
         <footer class="player">
           <div class="navigation">
-            <img src={previous} alt="Previous" class="previous" />
-            <img src={playArrow} alt="Play" class="playpause" />
-            <img src={next} alt="Next" class="next" />
+            <button class="previous"><img src={previous} alt="Previous" /></button>
+            <button class="playpause"><img src={playArrow} alt="Play" /></button>
+            <button class="next"><img src={next} alt="Next" /></button>
           </div>
           <div class="song">
             <div class="cover">
@@ -97,11 +97,11 @@ function App() {
             </div>
           </div>
           <div class="prefs">
-            <img src={volumeUp} alt="Volume" />
-            <img src={shuffle} alt="Shuffle" />
-            <img src={repeat} alt="Repeat" />
-            <img src={playbackRate} alt="Playback rate" />
-            <img src={more} alt="More" />
+            <button><img src={volumeUp} alt="Volume" /></button>
+            <button><img src={shuffle} alt="Shuffle" /></button>
+            <button><img src={repeat} alt="Repeat" /></button>
+            <button><img src={playbackRate} alt="Playback rate" /></button>
+            <button><img src={more} alt="More" /></button>
           </div>
         </footer>
       </div>
